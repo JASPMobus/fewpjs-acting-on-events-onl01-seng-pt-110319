@@ -23,6 +23,6 @@ function moveDodgerRight() {
   let left = parseInt(leftNumbers, 10);
  
   if (left > 0) {
-    dodger.style.left = `${right + 1}px`;
+    dodger.style.left = `${left + 1}px`;
   }
 }
